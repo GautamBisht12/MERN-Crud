@@ -1,0 +1,260 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ========Navbar========= */
+
+a{
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  color: inherit;
+}
+
+
+/* ======HOME====== */
+
+.main-home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: skyblue;
+  flex-direction: column;
+}
+.main-home a{
+  background-color: pink;
+  padding: 15px 20px;
+  margin-top: 10px;
+  border-radius: 50px;
+  border: 2px solid black;
+}
+.main-home a:hover{
+  background-color: rgb(55, 55, 211);
+  color: white;
+  border: 2px solid white   ;
+}
+
+
+/* ======Add user ==== */
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: pink;
+  flex-direction: column;
+}
+.main h1{
+  margin-top: 100px ;
+  margin-bottom: 20px ;
+}
+.form-center{
+  width: 40%;
+  height: 70vh;
+ border-radius: 40px;
+  background-color: skyblue;
+ 
+
+}
+.form-center form{
+height: 60vh;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+align-items: center;
+
+}
+form input{
+  width: 100%;
+  color: inherit;
+ background-color: white;
+  padding: 20px;
+  margin: 10px 0;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+form .adduser-btn{
+margin-top: 20px;
+border: 2px solid black;
+padding: 10px 25px ;
+border-radius: 50px;
+background-color: pink;
+}
+.adduser-btn:hover{
+  background-color: rgb(198, 102, 118);
+}
+
+
+
+/* ====Log in === */
+
+
+.login-center{
+  height: 50vh;
+
+}
+.login-btn{
+  /* background-color: red; */
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-btn .log-btn{
+  background-color: rgb(87, 190, 87);
+}
+.login-btn .reg-btn{
+  background-color: rgb(225, 106, 46);
+}
+.login-btn .reg-btn:hover{
+  background-color: rgba(225, 106, 46, 0.658);
+}
+.login-btn .log-btn:hover{
+  background-color: rgba(87, 190, 87, 0.689);
+}
+
+
+
+/* All user dat  */
+
+.alluser-main{
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  margin-top: 11vh;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+
+}
+.alluser-main .top{
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20vw;
+}
+.add{
+ /* background-color: pink; */
+ border: 2px solid black;
+ background-color: skyblue;
+    display: flex;
+  align-items: center;
+ padding:0 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 5px 13px;
+
+}
+.add:hover{
+scale: 1.1;
+}
+
+
+
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Style table header */
+th {
+  background-color: #f2f2f2;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Style table rows */
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Style alternate rows for better readability */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style buttons within the Action column */
+.action-buttons {
+  display: flex;
+  justify-content: flex-start;
+
+}
+.action-buttons a{
+  /* background-color: pink; */
+  width: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 3px;
+  border: 2px solid transparent;
+
+}
+.action-buttons .edit{
+  background-color: rgb(50, 177, 50);
+}
+.action-buttons .del{
+  background-color: red;
+}
+.action-buttons .view{
+  background-color: rgb(74, 236, 74);
+}
+
+
+.action-buttons a:active {
+scale: 1.1;
+}
+.action-buttons a:hover {
+  background-color: transparent;
+  border: 2px solid black;
+}
+
+
+
+
+/* Single user profile */
+
+.profile{
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+}
+.center{
+  display: flex;
+  width: 50%;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+}
+.left-pr{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right-pr{
+  width: 50%;
+}
